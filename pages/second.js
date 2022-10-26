@@ -17,13 +17,9 @@ export default function Home() {
 					Welcome to <a href="https://nextjs.org">Next.js!</a>
 				</h1>
 
+				<p className={styles.description}>This is a second page</p>
 				<p className={styles.description}>
-					Get started by editing{" "}
-					<code className={styles.code}>pages/index.js</code>
-				</p>
-
-				<p className={styles.description}>
-					...or go to the <Link href="/second">second page</Link>
+					Go <Link href="/">home</Link>
 				</p>
 			</main>
 
